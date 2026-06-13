@@ -14,5 +14,8 @@
     "jimp": "^1.6.1",
     "playwright": "^1.60.0",
     "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.1"
   }
 }

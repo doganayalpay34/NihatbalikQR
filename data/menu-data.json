@@ -35,16 +35,16 @@
       "icon": "🔥",
       "type": "food",
       "items": [
-        { "id": "izgara-cupra",         "name_tr": "Izgara Çupra",         "name_en": "Grilled Sea Bream",          "name_ar": "دنيس مشوي",                  "price": 2200, "unit": "kg",  "currency": "TL", "image": "images/balik-izgara/izgara-cupra.png" },
-        { "id": "izgara-levrek",        "name_tr": "Izgara Levrek",        "name_en": "Grilled Sea Bass",           "name_ar": "قاروص مشوي",                  "price": 2200, "unit": "kg",  "currency": "TL", "image": "images/balik-izgara/izgara-levrek.png" },
-        { "id": "izgara-somon",         "name_tr": "Izgara Somon",         "name_en": "Grilled Salmon",             "name_ar": "سلمون مشوي",                  "price": 1050, "unit": null,  "currency": "TL", "image": "images/balik-izgara/izgara-somon.png" },
-        { "id": "lufer",                "name_tr": "Lüfer",                "name_en": "Bluefish",                   "name_ar": "سمك الزرقاء المشوي",           "price": 3800, "unit": "kg",  "currency": "TL", "image": "images/balik-izgara/lufer.png" },
-        { "id": "sarikanat",            "name_tr": "Sarıkanat",            "name_en": "Yellow Wing Fish",           "name_ar": "سمك الجناح الأصفر",            "price": 3200, "unit": "kg",  "currency": "TL", "image": "images/balik-izgara/sarikanat.png" },
-        { "id": "cinekop",              "name_tr": "Çinekop",              "name_en": "Small Bluefish",             "name_ar": "سمك الزرقاء الصغير",           "price": 3200, "unit": "kg",  "currency": "TL", "image": "images/balik-izgara/cinekop.png" },
-        { "id": "minekop",              "name_tr": "Minekop",              "name_en": "Minekop",                    "name_ar": "مينيكوب",                      "price": null, "unit": null,  "currency": "TL", "image": "images/balik-izgara/minekop.png" },
-        { "id": "sardalya-tava",        "name_tr": "Sardalya Tava",        "name_en": "Fried Sardine",              "name_ar": "سردين مقلي",                  "price": null, "unit": null,  "currency": "TL", "image": "images/balik-izgara/sardalya-tava.png" },
-        { "id": "ithal-izgara-uskumru", "name_tr": "İthal Izgara Uskumru", "name_en": "Grilled Imported Mackerel", "name_ar": "ماكريل مستورد مشوي",           "price": null, "unit": null,  "currency": "TL", "image": "images/balik-izgara/ithal-izgara-uskumru.png" },
-        { "id": "balik-sis",            "name_tr": "Balık Şiş",            "name_en": "Fish Skewers",               "name_ar": "شيش سمك",                     "price": 1100, "unit": null,  "currency": "TL", "image": "images/balik-izgara/balik-sis.png" }
+        { "id": "izgara-cupra",         "name_tr": "Izgara Çupra",         "name_en": "Grilled Sea Bream",          "name_ar": "دنيس مشوي",                  "price": 2200, "unit": "kg",  "currency": "TL", "image": "images/balik-izgara/izgara-cupra.webp" },
+        { "id": "izgara-levrek",        "name_tr": "Izgara Levrek",        "name_en": "Grilled Sea Bass",           "name_ar": "قاروص مشوي",                  "price": 2200, "unit": "kg",  "currency": "TL", "image": "images/balik-izgara/izgara-levrek.webp" },
+        { "id": "izgara-somon",         "name_tr": "Izgara Somon",         "name_en": "Grilled Salmon",             "name_ar": "سلمون مشوي",                  "price": 1050, "unit": null,  "currency": "TL", "image": "images/balik-izgara/izgara-somon.webp" },
+        { "id": "lufer",                "name_tr": "Lüfer",                "name_en": "Bluefish",                   "name_ar": "سمك الزرقاء المشوي",           "price": 3800, "unit": "kg",  "currency": "TL", "image": "images/balik-izgara/lufer.webp" },
+        { "id": "sarikanat",            "name_tr": "Sarıkanat",            "name_en": "Yellow Wing Fish",           "name_ar": "سمك الجناح الأصفر",            "price": 3200, "unit": "kg",  "currency": "TL", "image": "images/balik-izgara/sarikanat.webp" },
+        { "id": "cinekop",              "name_tr": "Çinekop",              "name_en": "Small Bluefish",             "name_ar": "سمك الزرقاء الصغير",           "price": 3200, "unit": "kg",  "currency": "TL", "image": "images/balik-izgara/cinekop.webp" },
+        { "id": "minekop",              "name_tr": "Minekop",              "name_en": "Minekop",                    "name_ar": "مينيكوب",                      "price": null, "unit": null,  "currency": "TL", "image": "images/balik-izgara/minekop.webp" },
+        { "id": "sardalya-tava",        "name_tr": "Sardalya Tava",        "name_en": "Fried Sardine",              "name_ar": "سردين مقلي",                  "price": null, "unit": null,  "currency": "TL", "image": "images/balik-izgara/sardalya-tava.webp" },
+        { "id": "ithal-izgara-uskumru", "name_tr": "İthal Izgara Uskumru", "name_en": "Grilled Imported Mackerel", "name_ar": "ماكريل مستورد مشوي",           "price": null, "unit": null,  "currency": "TL", "image": "images/balik-izgara/ithal-izgara-uskumru.webp" },
+        { "id": "balik-sis",            "name_tr": "Balık Şiş",            "name_en": "Fish Skewers",               "name_ar": "شيش سمك",                     "price": 1100, "unit": null,  "currency": "TL", "image": "images/balik-izgara/balik-sis.webp" }
       ]
     },
     {
@@ -55,16 +55,16 @@
       "icon": "🦐",
       "type": "food",
       "items": [
-        { "id": "kalamar-tava",              "name_tr": "Kalamar Tava",              "name_en": "Fried Calamari",       "name_ar": "كالاماري مقلي",              "price": 720,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/kalamar-tava.png" },
-        { "id": "karides-guvec",             "name_tr": "Karides Güveç",             "name_en": "Shrimp Casserole",     "name_ar": "روبيان بالفرن",              "price": 720,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/karides-guvec.png" },
-        { "id": "jumbo-karides",             "name_tr": "Jumbo Karides",             "name_en": "Jumbo Shrimps",        "name_ar": "روبيان جامبو",               "price": 2500, "unit": null, "currency": "TL", "image": "images/ara-sicaklar/jumbo-karides.png" },
-        { "id": "balik-koftesi",             "name_tr": "Balık Köftesi",             "name_en": "Fish Rissole",         "name_ar": "كفتة السمك",                 "price": 200,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/balik-koftesi.png" },
-        { "id": "karides-tava",              "name_tr": "Karides Tava",              "name_en": "Fried Shrimp",         "name_ar": "روبيان مقلي",                "price": null, "unit": null, "currency": "TL", "image": "images/ara-sicaklar/karides-tava.png" },
-        { "id": "tereyaginda-karides-guvec", "name_tr": "Tereyağında Karides Güveç", "name_en": "Shrimps in Butter",    "name_ar": "روبيان بالزبدة",             "price": 720,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/tereyaginda-karides-guvec.png" },
-        { "id": "balik-kokorec",             "name_tr": "Balık Kokoreç",             "name_en": "Minced Roasted Fish",  "name_ar": "أحشاء السمك المشوية",        "price": 620,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/balik-kokorec.png" },
-        { "id": "kalamar-dolma",             "name_tr": "Kalamar Dolma",             "name_en": "Stuffed Calamari",     "name_ar": "كالاماري محشي",              "price": null, "unit": null, "currency": "TL", "image": "images/ara-sicaklar/kalamar-dolma.png" },
-        { "id": "susamli-levrek",            "name_tr": "Susamlı Levrek",            "name_en": "Sesame Seabass",       "name_ar": "قاروص بالسمسم",              "price": 300,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/susamli-levrek.png" },
-        { "id": "deniz-mahsulleri-makarna",  "name_tr": "Deniz Mahsülleri Makarna",  "name_en": "Seafood Pasta",        "name_ar": "مكرونة بالمأكولات البحرية",  "price": 650,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/deniz-mahsulleri-makarna.png" }
+        { "id": "kalamar-tava",              "name_tr": "Kalamar Tava",              "name_en": "Fried Calamari",       "name_ar": "كالاماري مقلي",              "price": 720,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/kalamar-tava.webp" },
+        { "id": "karides-guvec",             "name_tr": "Karides Güveç",             "name_en": "Shrimp Casserole",     "name_ar": "روبيان بالفرن",              "price": 720,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/karides-guvec.webp" },
+        { "id": "jumbo-karides",             "name_tr": "Jumbo Karides",             "name_en": "Jumbo Shrimps",        "name_ar": "روبيان جامبو",               "price": 2500, "unit": null, "currency": "TL", "image": "images/ara-sicaklar/jumbo-karides.webp" },
+        { "id": "balik-koftesi",             "name_tr": "Balık Köftesi",             "name_en": "Fish Rissole",         "name_ar": "كفتة السمك",                 "price": 200,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/balik-koftesi.webp" },
+        { "id": "karides-tava",              "name_tr": "Karides Tava",              "name_en": "Fried Shrimp",         "name_ar": "روبيان مقلي",                "price": null, "unit": null, "currency": "TL", "image": "images/ara-sicaklar/karides-tava.webp" },
+        { "id": "tereyaginda-karides-guvec", "name_tr": "Tereyağında Karides Güveç", "name_en": "Shrimps in Butter",    "name_ar": "روبيان بالزبدة",             "price": 720,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/tereyaginda-karides-guvec.webp" },
+        { "id": "balik-kokorec",             "name_tr": "Balık Kokoreç",             "name_en": "Minced Roasted Fish",  "name_ar": "أحشاء السمك المشوية",        "price": 620,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/balik-kokorec.webp" },
+        { "id": "kalamar-dolma",             "name_tr": "Kalamar Dolma",             "name_en": "Stuffed Calamari",     "name_ar": "كالاماري محشي",              "price": null, "unit": null, "currency": "TL", "image": "images/ara-sicaklar/kalamar-dolma.webp" },
+        { "id": "susamli-levrek",            "name_tr": "Susamlı Levrek",            "name_en": "Sesame Seabass",       "name_ar": "قاروص بالسمسم",              "price": 300,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/susamli-levrek.webp" },
+        { "id": "deniz-mahsulleri-makarna",  "name_tr": "Deniz Mahsülleri Makarna",  "name_en": "Seafood Pasta",        "name_ar": "مكرونة بالمأكولات البحرية",  "price": 650,  "unit": null, "currency": "TL", "image": "images/ara-sicaklar/deniz-mahsulleri-makarna.webp" }
       ]
     },
     {
@@ -75,18 +75,18 @@
       "icon": "🐚",
       "type": "food",
       "items": [
-        { "id": "beyaz-peynir",     "name_tr": "Beyaz Peynir",    "name_en": "White Cheese",        "name_ar": "جبنة بيضاء",         "price": 150,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/beyaz-peynir.png" },
-        { "id": "kavun",            "name_tr": "Kavun",           "name_en": "Melon",               "name_ar": "شمام",               "price": null, "unit": null, "currency": "TL", "image": "images/soguk-mezeler/kavun.png" },
-        { "id": "haydari",          "name_tr": "Haydari",         "name_en": "Haydari",             "name_ar": "حيداري",             "price": 290,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/haydari.png" },
-        { "id": "karides-sogus",    "name_tr": "Karides Söğüş",  "name_en": "Sliced-boiled Shrimp","name_ar": "روبيان مسلوق",       "price": 600,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/karides-sogus.png" },
-        { "id": "fava",             "name_tr": "Fava",            "name_en": "Fava",                "name_ar": "فول",                "price": 290,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/fava.png" },
-        { "id": "ahtapot-salatasi", "name_tr": "Ahtapot Salatası","name_en": "Octopus Salad",       "name_ar": "سلطة الأخطبوط",      "price": 900,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/ahtapot-salatasi.png" },
-        { "id": "atom",             "name_tr": "Atom",            "name_en": "Atom",                "name_ar": "أتوم",               "price": 290,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/atom.png" },
-        { "id": "patlican-salatasi","name_tr": "Patlıcan Salatası","name_en":"Eggplant Salad",      "name_ar": "سلطة الباذنجان",     "price": 290,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/patlican-salatasi.png" },
-        { "id": "uskumru-marina",   "name_tr": "Uskumru Marina",  "name_en": "Mackerel Marina",     "name_ar": "ماكريل مارينا",      "price": 480,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/uskumru-marina.png" },
-        { "id": "midye-dolma",      "name_tr": "Midye Dolma",     "name_en": "Stuffed Mussels",     "name_ar": "بلح البحر المحشي",   "price": null, "unit": null, "currency": "TL", "image": "images/soguk-mezeler/midye-dolma.png" },
-        { "id": "levrek-marin",     "name_tr": "Levrek Marin",    "name_en": "Sea Bass Marine",     "name_ar": "قاروص مارين",        "price": 480,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/levrek-marin.png" },
-        { "id": "deniz-borulcesi",  "name_tr": "Deniz Börülcesi", "name_en": "Glasswort",           "name_ar": "نبات البحر",         "price": 290,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/deniz-borulcesi.png" }
+        { "id": "beyaz-peynir",     "name_tr": "Beyaz Peynir",    "name_en": "White Cheese",        "name_ar": "جبنة بيضاء",         "price": 150,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/beyaz-peynir.webp" },
+        { "id": "kavun",            "name_tr": "Kavun",           "name_en": "Melon",               "name_ar": "شمام",               "price": null, "unit": null, "currency": "TL", "image": "images/soguk-mezeler/kavun.webp" },
+        { "id": "haydari",          "name_tr": "Haydari",         "name_en": "Haydari",             "name_ar": "حيداري",             "price": 290,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/haydari.webp" },
+        { "id": "karides-sogus",    "name_tr": "Karides Söğüş",  "name_en": "Sliced-boiled Shrimp","name_ar": "روبيان مسلوق",       "price": 600,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/karides-sogus.webp" },
+        { "id": "fava",             "name_tr": "Fava",            "name_en": "Fava",                "name_ar": "فول",                "price": 290,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/fava.webp" },
+        { "id": "ahtapot-salatasi", "name_tr": "Ahtapot Salatası","name_en": "Octopus Salad",       "name_ar": "سلطة الأخطبوط",      "price": 900,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/ahtapot-salatasi.webp" },
+        { "id": "atom",             "name_tr": "Atom",            "name_en": "Atom",                "name_ar": "أتوم",               "price": 290,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/atom.webp" },
+        { "id": "patlican-salatasi","name_tr": "Patlıcan Salatası","name_en":"Eggplant Salad",      "name_ar": "سلطة الباذنجان",     "price": 290,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/patlican-salatasi.webp" },
+        { "id": "uskumru-marina",   "name_tr": "Uskumru Marina",  "name_en": "Mackerel Marina",     "name_ar": "ماكريل مارينا",      "price": 480,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/uskumru-marina.webp" },
+        { "id": "midye-dolma",      "name_tr": "Midye Dolma",     "name_en": "Stuffed Mussels",     "name_ar": "بلح البحر المحشي",   "price": null, "unit": null, "currency": "TL", "image": "images/soguk-mezeler/midye-dolma.webp" },
+        { "id": "levrek-marin",     "name_tr": "Levrek Marin",    "name_en": "Sea Bass Marine",     "name_ar": "قاروص مارين",        "price": 480,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/levrek-marin.webp" },
+        { "id": "deniz-borulcesi",  "name_tr": "Deniz Börülcesi", "name_en": "Glasswort",           "name_ar": "نبات البحر",         "price": 290,  "unit": null, "currency": "TL", "image": "images/soguk-mezeler/deniz-borulcesi.webp" }
       ]
     },
     {
@@ -97,12 +97,12 @@
       "icon": "🥗",
       "type": "food",
       "items": [
-        { "id": "coban-salatasi",          "name_tr": "Çoban Salatası",          "name_en": "Shepherd's Salad",             "name_ar": "سلطة الراعي",                "price": 480, "unit": null, "currency": "TL", "image": "images/salatalar/coban-salatasi.png" },
-        { "id": "yesil-salata",            "name_tr": "Yeşil Salata",            "name_en": "Green Salad",                  "name_ar": "سلطة خضراء",                 "price": 480, "unit": null, "currency": "TL", "image": "images/salatalar/yesil-salata.png" },
-        { "id": "peynirli-coban-salatasi", "name_tr": "Peynirli Çoban Salatası", "name_en": "Shepherd's Salad with Cheese", "name_ar": "سلطة الراعي بالجبنة",        "price": 480, "unit": null, "currency": "TL", "image": "images/salatalar/peynirli-coban-salatasi.png" },
-        { "id": "gavurdagi-salatasi",      "name_tr": "Gavurdağı Salatası",      "name_en": "Gavurdagi Salad",              "name_ar": "سلطة غافور داغي",            "price": 480, "unit": null, "currency": "TL", "image": "images/salatalar/gavurdagi-salatasi.png" },
-        { "id": "roka-salatasi",           "name_tr": "Roka Salatası",           "name_en": "Garden Rocket Salad",          "name_ar": "سلطة الجرجير",               "price": 480, "unit": null, "currency": "TL", "image": "images/salatalar/roka-salatasi.png" },
-        { "id": "karides-salata",          "name_tr": "Karides Salata",          "name_en": "Shrimp Salad",                 "name_ar": "سلطة الروبيان",              "price": 700, "unit": null, "currency": "TL", "image": "images/salatalar/karides-salata.png" }
+        { "id": "coban-salatasi",          "name_tr": "Çoban Salatası",          "name_en": "Shepherd's Salad",             "name_ar": "سلطة الراعي",                "price": 480, "unit": null, "currency": "TL", "image": "images/salatalar/coban-salatasi.webp" },
+        { "id": "yesil-salata",            "name_tr": "Yeşil Salata",            "name_en": "Green Salad",                  "name_ar": "سلطة خضراء",                 "price": 480, "unit": null, "currency": "TL", "image": "images/salatalar/yesil-salata.webp" },
+        { "id": "peynirli-coban-salatasi", "name_tr": "Peynirli Çoban Salatası", "name_en": "Shepherd's Salad with Cheese", "name_ar": "سلطة الراعي بالجبنة",        "price": 480, "unit": null, "currency": "TL", "image": "images/salatalar/peynirli-coban-salatasi.webp" },
+        { "id": "gavurdagi-salatasi",      "name_tr": "Gavurdağı Salatası",      "name_en": "Gavurdagi Salad",              "name_ar": "سلطة غافور داغي",            "price": 480, "unit": null, "currency": "TL", "image": "images/salatalar/gavurdagi-salatasi.webp" },
+        { "id": "roka-salatasi",           "name_tr": "Roka Salatası",           "name_en": "Garden Rocket Salad",          "name_ar": "سلطة الجرجير",               "price": 480, "unit": null, "currency": "TL", "image": "images/salatalar/roka-salatasi.webp" },
+        { "id": "karides-salata",          "name_tr": "Karides Salata",          "name_en": "Shrimp Salad",                 "name_ar": "سلطة الروبيان",              "price": 700, "unit": null, "currency": "TL", "image": "images/salatalar/karides-salata.webp" }
       ]
     },
     {
@@ -113,16 +113,16 @@
       "icon": "🍮",
       "type": "food",
       "items": [
-        { "id": "mevsim-meyveleri",        "name_tr": "Mevsim Meyveleri",        "name_en": "Seasonal Fruits",              "name_ar": "فواكه موسمية",               "price": 400,  "unit": null, "currency": "TL", "image": "images/tatlilar/mevsim-meyveleri.png" },
-        { "id": "ayva-tatlisi",            "name_tr": "Ayva Tatlısı",            "name_en": "Quince Dessert",               "name_ar": "حلوى السفرجل",               "price": 330,  "unit": null, "currency": "TL", "image": "images/tatlilar/ayva-tatlisi.png" },
-        { "id": "kabak-tatlisi",           "name_tr": "Kabak Tatlısı",           "name_en": "Pumpkin Dessert",              "name_ar": "حلوى القرع",                 "price": null, "unit": null, "currency": "TL", "image": "images/tatlilar/kabak-tatlisi.png" },
-        { "id": "incir-tatlisi",           "name_tr": "İncir Tatlısı",           "name_en": "Fig Dessert",                  "name_ar": "حلوى التين",                 "price": null, "unit": null, "currency": "TL", "image": "images/tatlilar/incir-tatlisi.png" },
-        { "id": "cikolatali-sufle",        "name_tr": "Çikolatalı Süfle",        "name_en": "Chocolate Soufflé",            "name_ar": "سوفليه بالشوكولاتة",         "price": 350,  "unit": null, "currency": "TL", "image": "images/tatlilar/cikolatali-sufle.png" },
-        { "id": "dondurmali-irmik-tatlisi","name_tr": "Dondurmalı İrmik Tatlısı","name_en": "Semolina Dessert w/ Ice Cream","name_ar": "حلوى السميد بالآيس كريم",    "price": 270,  "unit": null, "currency": "TL", "image": "images/tatlilar/dondurmali-irmik-tatlisi.png" },
-        { "id": "tahinli-profiterol",      "name_tr": "Tahinli Profiterol",      "name_en": "Tahini Profiterole",           "name_ar": "بروفيتيرول بالطحينة",        "price": null, "unit": null, "currency": "TL", "image": "images/tatlilar/tahinli-profiterol.png" },
-        { "id": "balli-muz",               "name_tr": "Ballı Muz",               "name_en": "Banana with Honey",            "name_ar": "موز بالعسل",                 "price": null, "unit": null, "currency": "TL", "image": "images/tatlilar/balli-muz.png" },
-        { "id": "dondurma",                "name_tr": "Dondurma",                "name_en": "Ice Cream",                    "name_ar": "آيس كريم",                   "price": 200,  "unit": null, "currency": "TL", "image": "images/tatlilar/dondurma.png" },
-        { "id": "kiremitte-helva",         "name_tr": "Kiremitte Helva",         "name_en": "Halva Casserole",              "name_ar": "حلوى الحلقوم بالكراميل",     "price": 230,  "unit": null, "currency": "TL", "image": "images/tatlilar/kiremitte-helva.png" }
+        { "id": "mevsim-meyveleri",        "name_tr": "Mevsim Meyveleri",        "name_en": "Seasonal Fruits",              "name_ar": "فواكه موسمية",               "price": 400,  "unit": null, "currency": "TL", "image": "images/tatlilar/mevsim-meyveleri.webp" },
+        { "id": "ayva-tatlisi",            "name_tr": "Ayva Tatlısı",            "name_en": "Quince Dessert",               "name_ar": "حلوى السفرجل",               "price": 330,  "unit": null, "currency": "TL", "image": "images/tatlilar/ayva-tatlisi.webp" },
+        { "id": "kabak-tatlisi",           "name_tr": "Kabak Tatlısı",           "name_en": "Pumpkin Dessert",              "name_ar": "حلوى القرع",                 "price": null, "unit": null, "currency": "TL", "image": "images/tatlilar/kabak-tatlisi.webp" },
+        { "id": "incir-tatlisi",           "name_tr": "İncir Tatlısı",           "name_en": "Fig Dessert",                  "name_ar": "حلوى التين",                 "price": null, "unit": null, "currency": "TL", "image": "images/tatlilar/incir-tatlisi.webp" },
+        { "id": "cikolatali-sufle",        "name_tr": "Çikolatalı Süfle",        "name_en": "Chocolate Soufflé",            "name_ar": "سوفليه بالشوكولاتة",         "price": 350,  "unit": null, "currency": "TL", "image": "images/tatlilar/cikolatali-sufle.webp" },
+        { "id": "dondurmali-irmik-tatlisi","name_tr": "Dondurmalı İrmik Tatlısı","name_en": "Semolina Dessert w/ Ice Cream","name_ar": "حلوى السميد بالآيس كريم",    "price": 270,  "unit": null, "currency": "TL", "image": "images/tatlilar/dondurmali-irmik-tatlisi.webp" },
+        { "id": "tahinli-profiterol",      "name_tr": "Tahinli Profiterol",      "name_en": "Tahini Profiterole",           "name_ar": "بروفيتيرول بالطحينة",        "price": null, "unit": null, "currency": "TL", "image": "images/tatlilar/tahinli-profiterol.webp" },
+        { "id": "balli-muz",               "name_tr": "Ballı Muz",               "name_en": "Banana with Honey",            "name_ar": "موز بالعسل",                 "price": null, "unit": null, "currency": "TL", "image": "images/tatlilar/balli-muz.webp" },
+        { "id": "dondurma",                "name_tr": "Dondurma",                "name_en": "Ice Cream",                    "name_ar": "آيس كريم",                   "price": 200,  "unit": null, "currency": "TL", "image": "images/tatlilar/dondurma.webp" },
+        { "id": "kiremitte-helva",         "name_tr": "Kiremitte Helva",         "name_en": "Halva Casserole",              "name_ar": "حلوى الحلقوم بالكراميل",     "price": 230,  "unit": null, "currency": "TL", "image": "images/tatlilar/kiremitte-helva.webp" }
       ]
     },
     {
