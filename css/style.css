@@ -1,0 +1,433 @@
+/* =============================================
+   NIHAT BALIK RESTAURANT — QR MENÜ STİLLERİ
+   ============================================= */
+
+:root {
+  --bg-primary:      #FFFFFF;
+  --bg-secondary:    #F7F7F7;
+  --bg-card:         #FFFFFF;
+  --bg-card-hover:   #FAFAFA;
+  --accent-navy:     #1B3A5C;
+  --accent-navy-lt:  #2a5585;
+  --accent-red:      #C0392B;
+  --accent-red-lt:   #e04535;
+  --accent-gold:     #A0760A;
+  --text-primary:    #1A1A1A;
+  --text-secondary:  #555555;
+  --text-muted:      #999999;
+  --border:          #E5E5E5;
+  --border-lt:       #EEEEEE;
+  --header-h:        64px;
+  --nav-h:           48px;
+  --radius:          10px;
+}
+
+/* ===== RESET ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+img { display: block; max-width: 100%; }
+button { cursor: pointer; font-family: inherit; }
+
+/* ===== LOADING ===== */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.loading-spinner {
+  width: 38px;
+  height: 38px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent-red);
+  border-radius: 50%;
+  animation: spin 0.75s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ===== HEADER ===== */
+.site-header {
+  position: sticky;
+  top: 0;
+  height: 64px;
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 14px;
+}
+
+.logo {
+  height: 52px;
+  width: auto;
+}
+
+.logo-fallback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.15;
+}
+
+.logo-nihat {
+  color: var(--accent-red);
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.logo-balik {
+  color: var(--accent-navy);
+  font-size: 8.5px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+/* ===== CATEGORY NAV ===== */
+.category-nav {
+  position: sticky;
+  top: var(--header-h);
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  z-index: 90;
+  height: var(--nav-h);
+}
+
+.nav-inner {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 0 6px;
+}
+
+.nav-inner::-webkit-scrollbar { display: none; }
+
+.nav-tab {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0 13px;
+  height: 100%;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 400;
+  white-space: nowrap;
+  transition: color 0.2s, border-color 0.2s;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nav-tab:hover  { color: var(--text-secondary); }
+
+.nav-tab.active {
+  color: var(--text-primary);
+  border-bottom-color: var(--accent-red);
+  font-weight: 500;
+}
+
+.nav-icon { font-size: 14px; line-height: 1; }
+
+/* ===== MAIN CONTENT ===== */
+.main-content { padding-bottom: 48px; }
+
+/* ===== SECTION ===== */
+.menu-section {
+  scroll-margin-top: calc(var(--header-h) + var(--nav-h) + 6px);
+}
+
+.section-header {
+  padding: 28px 14px 14px;
+}
+
+.section-title-tr {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.section-divider {
+  width: 38px;
+  height: 2px;
+  background: linear-gradient(to right, var(--accent-red), transparent);
+  margin: 9px 0 6px;
+}
+
+.section-title-en {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* ===== ITEMS GRID ===== */
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 4px 12px 12px;
+}
+
+/* ===== ITEM CARD ===== */
+.item-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border-lt);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  transition: box-shadow 0.2s;
+}
+
+.item-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.item-card:active { opacity: 0.85; }
+
+.item-image-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;   /* 4:3 */
+  overflow: hidden;
+  background: #121212;
+}
+
+.item-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item-info {
+  padding: 8px 10px 10px;
+}
+
+.item-name-tr {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.3;
+  margin-bottom: 2px;
+}
+
+.item-name-en {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.item-price {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent-gold);
+  display: inline;
+}
+
+.price-unit {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.price-ask {
+  display: block;
+  font-size: 10px;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* ===== DRINKS ===== */
+.drinks-container {
+  padding: 4px 14px 12px;
+}
+
+.drink-subcategory {
+  margin-bottom: 20px;
+}
+
+.drink-subcategory-title {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent-navy-lt);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2px;
+}
+
+.drink-sub-en {
+  color: var(--text-muted);
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 11px;
+}
+
+.drink-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.035);
+}
+
+.drink-item:last-child { border-bottom: none; }
+
+.drink-info { flex: 1; min-width: 0; }
+
+.drink-name {
+  font-size: 14px;
+  color: var(--text-primary);
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.drink-size {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 1px;
+  font-weight: 300;
+}
+
+.drink-price {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-style: italic;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+.drink-price.has-price {
+  color: var(--accent-gold);
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.site-footer p {
+  color: var(--text-muted);
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* ===== TABLET / DESKTOP ===== */
+@media (min-width: 480px) {
+  .items-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 4px 16px 12px;
+  }
+  .section-header   { padding: 28px 16px 14px; }
+  .drinks-container { padding: 4px 16px 12px; }
+}
+
+@media (min-width: 720px) {
+  .items-grid,
+  .section-header,
+  .drinks-container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .items-grid {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4px 24px 16px;
+  }
+  .section-header {
+    padding: 32px 24px 16px;
+  }
+  .drinks-container {
+    padding: 4px 24px 16px;
+  }
+  .section-title-tr { font-size: 30px; }
+  .nav-tab          { font-size: 14px; padding: 0 16px; }
+}
+
+/* ===== DİL GEÇİŞ BUTONLARI ===== */
+
+.lang-switcher {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 2px;
+}
+
+[dir="rtl"] .lang-switcher { right: auto; left: 10px; }
+
+.lang-sw-btn {
+  font-size: 18px;
+  text-decoration: none;
+  opacity: 0.35;
+  transition: opacity 0.2s;
+  line-height: 1;
+  padding: 4px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.lang-sw-btn.active { opacity: 1; }
+.lang-sw-btn:hover  { opacity: 0.7; }
+
+/* ===== RTL (ARAPÇA) ===== */
+[dir="rtl"] .section-header  { text-align: right; }
+[dir="rtl"] .section-divider { background: linear-gradient(to left, var(--accent-red), transparent); }
+[dir="rtl"] .item-info       { text-align: right; }
+[dir="rtl"] .nav-inner       { direction: rtl; }
+[dir="rtl"] .drink-subcategory-title { direction: rtl; }
+[dir="rtl"] .drink-info      { text-align: right; }
+[dir="rtl"] .drink-item      { direction: rtl; }
+[dir="rtl"] .item-name-tr,
+[dir="rtl"] .item-name-en    { font-family: 'Noto Sans Arabic', 'Segoe UI', Arial, sans-serif; }
+
+/* Arapça için biraz daha büyük yazı tipi */
+[lang="ar"] .item-name-tr    { font-size: 14px; }
+[lang="ar"] .section-title-tr { font-family: 'Noto Sans Arabic', 'Segoe UI', Arial, sans-serif; font-weight: 700; }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="theme-color" content="#FFFFFF">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Nihat Balık Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/welcome.css">
+</head>
+<body>
+
+  <!-- Tam ekran arka plan videosu -->
+  <video class="hero-bg" autoplay muted loop playsinline preload="auto">
+    <source src="images/hero.mp4" type="video/mp4">
+  </video>
+
+  <!-- Beyaz saydam overlay - 2.5s sonra gelir -->
+  <div class="hero-overlay"></div>
+
+  <!-- İçerik - overlay ile birlikte belirir -->
+  <div class="welcome-page">
+
+    <img
+      src="images/logo.png"
+      alt="Nihat Balık Restaurant"
+      class="welcome-logo"
+      onerror="this.style.display='none'; document.getElementById('logo-text').style.display='block'"
+    >
+    <div id="logo-text" class="logo-text-fallback" style="display:none">
+      <span class="logo-nihat">Nihat</span>
+      <span class="logo-balik">BALIK RESTAURANT</span>
+    </div>
+
+    <div class="welcome-divider"></div>
+
+    <p class="welcome-subtitle">Menü dilinizi seçiniz</p>
+
+    <nav class="lang-buttons" aria-label="Dil seçimi">
+
+      <a href="menu.html?lang=tr" class="lang-btn">
+        <span class="lang-flag">🇹🇷</span>
+        <div class="lang-text">
+          <span class="lang-native">Türkçe</span>
+          <span class="lang-sub">Turkish</span>
+        </div>
+        <span class="lang-arrow">›</span>
+      </a>
+
+      <a href="menu.html?lang=en" class="lang-btn">
+        <span class="lang-flag">🇬🇧</span>
+        <div class="lang-text">
+          <span class="lang-native">English</span>
+          <span class="lang-sub">İngilizce</span>
+        </div>
+        <span class="lang-arrow">›</span>
+      </a>
+
+      <a href="menu.html?lang=ar" class="lang-btn">
+        <span class="lang-flag">🇸🇦</span>
+        <div class="lang-text">
+          <span class="lang-native" style="font-family: 'Noto Sans Arabic', Arial, sans-serif; direction: rtl;">العربية</span>
+          <span class="lang-sub">Arabic · عربي</span>
+        </div>
+        <span class="lang-arrow">›</span>
+      </a>
+
+    </nav>
+
+    <p class="welcome-footer">Nihat Balık Restaurant © 2026</p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#F5F5F5"/>
+  <g transform="translate(200,135)" opacity="0.35">
+    <ellipse cx="0" cy="0" rx="78" ry="44" fill="#BBBBBB"/>
+    <path d="M-78,0 L-115,-40 L-100,0 L-115,40 Z" fill="#BBBBBB"/>
+    <circle cx="52" cy="-13" r="9" fill="#AAAAAA"/>
+    <circle cx="55" cy="-15" r="3.5" fill="#D0D0D0"/>
+    <path d="M8,-44 C25,-70 50,-63 38,-44" fill="#BBBBBB"/>
+    <path d="M22,2 C38,18 32,38 12,32" fill="#BBBBBB"/>
+    <path d="M18,-16 Q8,-6 18,4" stroke="#CCCCCC" stroke-width="1.5" fill="none"/>
+    <path d="M34,-19 Q24,-9 34,1" stroke="#CCCCCC" stroke-width="1.5" fill="none"/>
+    <path d="M2,-13 Q-8,-3 2,7" stroke="#CCCCCC" stroke-width="1.5" fill="none"/>
+    <path d="M-14,-11 Q-24,-1 -14,9" stroke="#CCCCCC" stroke-width="1.5" fill="none"/>
+    <path d="M72,-6 Q79,0 72,6" stroke="#AAAAAA" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="200" y="238" text-anchor="middle" fill="#C0C0C0" font-size="12" font-family="Inter, Arial, sans-serif" letter-spacing="3" font-weight="500">GÖRSEL EKLENECEK</text>
+  <text x="200" y="258" text-anchor="middle" fill="#D0D0D0" font-size="10" font-family="Inter, Arial, sans-serif" letter-spacing="2">Photo Coming Soon</text>
+</svg>
