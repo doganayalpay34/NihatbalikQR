@@ -25,8 +25,7 @@ function getName(item) {
 
 function getSecondaryName(item) {
   if (lang === 'ar') return item.name_tr;
-  if (lang === 'en') return null;
-  return item.name_en;
+  return null;
 }
 
 function getCatName(cat) {
@@ -111,7 +110,6 @@ function buildSection(cat) {
     <div class="section-header">
       <h2 class="section-title-tr">${getCatName(cat)}</h2>
       <div class="section-divider"></div>
-      ${lang !== 'ar' && cat.name_en ? `<p class="section-title-en">${lang === 'tr' ? cat.name_en : cat.name_tr}</p>` : ''}
     </div>`;
 
   if (cat.type === 'drinks') {
