@@ -48,6 +48,20 @@
       ]
     },
     {
+      "id": "kavurma-bugulama",
+      "name_tr": "Kavurma & Buğulama",
+      "name_en": "Sautéed & Steamed Fish",
+      "name_ar": "سمك مقلي ومطهو بالبخار",
+      "icon": "🍳",
+      "type": "food",
+      "items": [
+        { "id": "fener-kavurma",      "name_tr": "Fener Kavurma",      "name_en": "Sautéed Fener",         "name_ar": "فينر بالقلي",      "price": 2500, "unit": "kg", "currency": "TL", "image": "images/kavurma-bugulama/fener-kavurma.webp" },
+        { "id": "levrek-kavurma",     "name_tr": "Levrek Kavurma",     "name_en": "Sautéed Sea Bass",      "name_ar": "قاروص بالقلي",     "price": 2800, "unit": "kg", "currency": "TL", "image": "images/kavurma-bugulama/levrek-kavurma.webp" },
+        { "id": "kirlangic-bugulama", "name_tr": "Kırlangıç Buğulama", "name_en": "Steamed Kırlangıç",    "name_ar": "كيرلانجيتش بالبخار","price": 2500, "unit": "kg", "currency": "TL", "image": "images/kavurma-bugulama/kirlangic-bugulama.webp" },
+        { "id": "lipsos-bugulama",    "name_tr": "Lipsos Buğulama",    "name_en": "Steamed Lipsos",        "name_ar": "ليبسوس بالبخار",   "price": 2500, "unit": "kg", "currency": "TL", "image": "images/kavurma-bugulama/lipsos-bugulama.webp" }
+      ]
+    },
+    {
       "id": "ara-sicaklar",
       "name_tr": "Ara Sıcaklar",
       "name_en": "Hot Appetizers",
@@ -147,55 +161,62 @@
         {
           "name_tr": "Bira", "name_en": "Beer", "name_ar": "بيرة",
           "items": [
-            { "id": "efes-33",    "name_tr": "Efes",         "sizes": "33 cl", "price": 240,  "currency": "TL" },
-            { "id": "efes-50",    "name_tr": "Efes",         "sizes": "50 cl", "price": 290,  "currency": "TL" },
-            { "id": "miller",     "name_tr": "Miller",       "sizes": null,    "price": 260,  "currency": "TL" },
-            { "id": "raki-kadeh", "name_tr": "Rakı (kadeh)", "sizes": null,    "price": null, "currency": "TL" }
+            { "id": "efes-33",      "name_tr": "Efes",          "sizes": "33 cl", "price": 240, "currency": "TL" },
+            { "id": "efes-50",      "name_tr": "Efes",          "sizes": "50 cl", "price": 290, "currency": "TL" },
+            { "id": "efes-bomonti", "name_tr": "Efes Bomonti",  "sizes": "50 cl", "price": 290, "currency": "TL" },
+            { "id": "miller",       "name_tr": "Miller",        "sizes": "33 cl", "price": 260, "currency": "TL" },
+            { "id": "tuborg-gold",  "name_tr": "Tuborg Gold",   "sizes": "50 cl", "price": 290, "currency": "TL" }
           ]
         },
         {
           "name_tr": "Rakılar", "name_en": "Raki", "name_ar": "راكي",
           "items": [
-            { "id": "yeni-raki-70", "name_tr": "Yeni Rakı", "sizes": "70 cl", "price": 3500, "currency": "TL" },
-            { "id": "yeni-raki-50", "name_tr": "Yeni Rakı", "sizes": "50 cl", "price": 2800, "currency": "TL" },
-            { "id": "yeni-raki-35", "name_tr": "Yeni Rakı", "sizes": "35 cl", "price": 2100, "currency": "TL" },
-            { "id": "yeni-raki-20", "name_tr": "Yeni Rakı", "sizes": "20 cl", "price": 1600, "currency": "TL" },
-            { "id": "efe-gold-70",  "name_tr": "Efe Gold",  "sizes": "70 cl", "price": 2900, "currency": "TL" },
-            { "id": "efe-gold-50",  "name_tr": "Efe Gold",  "sizes": "50 cl", "price": 2400, "currency": "TL" },
-            { "id": "efe-gold-35",  "name_tr": "Efe Gold",  "sizes": "35 cl", "price": 1600, "currency": "TL" },
-            { "id": "efe-gold-20",  "name_tr": "Efe Gold",  "sizes": "20 cl", "price": 1050, "currency": "TL" },
-            { "id": "tekirdag",     "name_tr": "Tekirdağ",  "sizes": "70 / 50 / 35 / 20 cl", "price": null, "currency": "TL" },
-            { "id": "yesil-efe",    "name_tr": "Yeşil Efe", "sizes": "70 / 50 / 35 / 20 cl", "price": null, "currency": "TL" },
-            { "id": "saki",         "name_tr": "Saki",      "sizes": "70 / 50 / 35 / 20 cl", "price": null, "currency": "TL" }
+            { "id": "yeni-raki-70",    "name_tr": "Yeni Rakı",      "sizes": "70 cl", "price": 2800, "currency": "TL" },
+            { "id": "yeni-raki-50",    "name_tr": "Yeni Rakı",      "sizes": "50 cl", "price": 2100, "currency": "TL" },
+            { "id": "yeni-raki-35",    "name_tr": "Yeni Rakı",      "sizes": "35 cl", "price": 1600, "currency": "TL" },
+            { "id": "yeni-raki-20",    "name_tr": "Yeni Rakı",      "sizes": "20 cl", "price": 900,  "currency": "TL" },
+            { "id": "tekirdag-70",     "name_tr": "Tekirdağ Gold",  "sizes": "70 cl", "price": 3000, "currency": "TL" },
+            { "id": "tekirdag-50",     "name_tr": "Tekirdağ Gold",  "sizes": "50 cl", "price": 2500, "currency": "TL" },
+            { "id": "tekirdag-35",     "name_tr": "Tekirdağ Gold",  "sizes": "35 cl", "price": 1700, "currency": "TL" },
+            { "id": "efe-gold-70",     "name_tr": "Efe Gold",       "sizes": "70 cl", "price": 2900, "currency": "TL" },
+            { "id": "efe-gold-50",     "name_tr": "Efe Gold",       "sizes": "50 cl", "price": 2400, "currency": "TL" },
+            { "id": "efe-gold-35",     "name_tr": "Efe Gold",       "sizes": "35 cl", "price": 1600, "currency": "TL" },
+            { "id": "yesil-efe",       "name_tr": "Yeşil Efe",      "sizes": "70 / 50 / 35 cl", "price": null, "currency": "TL" },
+            { "id": "saki",            "name_tr": "Saki",           "sizes": "70 / 50 / 35 cl", "price": null, "currency": "TL" }
           ]
         },
         {
           "name_tr": "Viskiler", "name_en": "Whiskey", "name_ar": "ويسكي",
           "items": [
-            { "id": "black-label",  "name_tr": "Black Label",  "sizes": "70 cl", "price": 4900, "currency": "TL" },
-            { "id": "chivas-regal", "name_tr": "Chivas Regal", "sizes": "70 cl", "price": 4200, "currency": "TL" },
-            { "id": "jb",           "name_tr": "J&B",          "sizes": "70 cl", "price": null,  "currency": "TL" }
+            { "id": "jw-red-label",  "name_tr": "J.W. Red Label",  "sizes": "8 cl", "price": 700, "currency": "TL" },
+            { "id": "black-label",   "name_tr": "J.W. Black Label", "sizes": "8 cl", "price": 600, "currency": "TL" },
+            { "id": "jack-daniels",  "name_tr": "Jack Daniel's",   "sizes": "8 cl", "price": 600, "currency": "TL" },
+            { "id": "chivas-regal",  "name_tr": "Chivas Regal",    "sizes": "8 cl", "price": 650, "currency": "TL" },
+            { "id": "jb",            "name_tr": "J&B",             "sizes": "8 cl", "price": 450, "currency": "TL" }
           ]
         },
         {
           "name_tr": "Vodkalar", "name_en": "Vodka", "name_ar": "فودكا",
           "items": [
-            { "id": "absolut",  "name_tr": "Absolut",  "sizes": "70 cl", "price": 3300, "currency": "TL" },
-            { "id": "smirnoff", "name_tr": "Smirnoff", "sizes": "70 cl", "price": 3000, "currency": "TL" }
+            { "id": "absolut",     "name_tr": "Absolut",     "sizes": "8 cl", "price": 500, "currency": "TL" },
+            { "id": "smirnoff",    "name_tr": "Smirnoff",    "sizes": "8 cl", "price": 450, "currency": "TL" },
+            { "id": "yerli-vodka", "name_tr": "Yerli Vodka", "sizes": "8 cl", "price": 400, "currency": "TL" }
           ]
         },
         {
           "name_tr": "Şaraplar", "name_en": "Wine", "name_ar": "نبيذ",
           "items": [
-            { "id": "selection-70",       "name_tr": "Selection",          "sizes": "70 cl", "price": 2700, "currency": "TL" },
-            { "id": "yakut-70",           "name_tr": "Yakut",              "sizes": "70 cl", "price": 1900, "currency": "TL" },
-            { "id": "yakut-35",           "name_tr": "Yakut",              "sizes": "35 cl", "price": 1050, "currency": "TL" },
-            { "id": "cankaya-70",         "name_tr": "Çankaya",            "sizes": "70 cl", "price": 1900, "currency": "TL" },
-            { "id": "cankaya-35",         "name_tr": "Çankaya",            "sizes": "35 cl", "price": 1050, "currency": "TL" },
-            { "id": "angora-70",          "name_tr": "Angora",             "sizes": "70 cl", "price": 1200, "currency": "TL" },
-            { "id": "kayra",              "name_tr": "Kayra",              "sizes": "70 / 35 cl", "price": null, "currency": "TL" },
-            { "id": "sarafin-chardonnay", "name_tr": "Sarafin Chardonnay", "sizes": "70 cl", "price": 3300, "currency": "TL" },
-            { "id": "buzbag",             "name_tr": "Buzbağ",             "sizes": "70 / 35 cl", "price": null, "currency": "TL" }
+            { "id": "selection-70",          "name_tr": "Selection Beyaz",          "sizes": "75 cl", "price": 2700, "currency": "TL" },
+            { "id": "selection-narince-70",  "name_tr": "Selection Narince Beyaz",  "sizes": "75 cl", "price": 2500, "currency": "TL" },
+            { "id": "yakut-70",              "name_tr": "Yakut",                    "sizes": "75 cl", "price": 1900, "currency": "TL" },
+            { "id": "yakut-35",              "name_tr": "Yakut",                    "sizes": "37.5 cl","price": 1050, "currency": "TL" },
+            { "id": "cankaya-70",            "name_tr": "Çankaya",                  "sizes": "75 cl", "price": 1900, "currency": "TL" },
+            { "id": "cankaya-35",            "name_tr": "Çankaya",                  "sizes": "37.5 cl","price": 1050, "currency": "TL" },
+            { "id": "angora-70",             "name_tr": "Angora",                   "sizes": "75 cl", "price": 1700, "currency": "TL" },
+            { "id": "angora-35",             "name_tr": "Angora",                   "sizes": "37.5 cl","price": 950,  "currency": "TL" },
+            { "id": "kayra",                 "name_tr": "Kayra",                    "sizes": "75 / 37.5 cl", "price": null, "currency": "TL" },
+            { "id": "sarafin-chardonnay",    "name_tr": "Sarafin Chardonnay",       "sizes": "75 cl", "price": 3300, "currency": "TL" },
+            { "id": "buzbag",                "name_tr": "Buzbağ",                   "sizes": "75 / 37.5 cl", "price": null, "currency": "TL" }
           ]
         },
         {
